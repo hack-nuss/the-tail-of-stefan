@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sefancharakter : MonoBehaviour
+public class Stefan : MonoBehaviour
 {
     public float speed = 5;
     public Rigidbody2D Rigidbody;
+
     // Start is called before the first frame update
     void Start()
     {
