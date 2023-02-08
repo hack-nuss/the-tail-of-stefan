@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Stefan : MonoBehaviour
+public class playerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Transform groundCheck;
