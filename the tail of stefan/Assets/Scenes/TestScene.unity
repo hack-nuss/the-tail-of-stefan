@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 280722130}
   - component: {fileID: 280722129}
-  - component: {fileID: 280722128}
+  - component: {fileID: 280722131}
   m_Layer: 6
   m_Name: fliegende insel
   m_TagString: Untagged
@@ -141,32 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &280722128
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280722127}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.010251284}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12, y: 12}
-    newSize: {x: 12, y: 12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.27, y: 6.9930177}
-  m_EdgeRadius: 0
 --- !u!212 &280722129
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -235,6 +209,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!68 &280722131
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280722127}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -5.788361, y: 2.239896}
+  - {x: -5.738786, y: 2.870978}
+  - {x: -5.5334845, y: 3.1792452}
+  - {x: -5.236624, y: 3.41293}
+  - {x: 4.8538194, y: 3.5262527}
+  - {x: 5.2664304, y: 3.3239427}
+  - {x: 5.5634723, y: 2.9451077}
+  - {x: 5.7335944, y: 2.4876056}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &304717687
 GameObject:
   m_ObjectHideFlags: 0
